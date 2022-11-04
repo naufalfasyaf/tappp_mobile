@@ -23,6 +23,9 @@ class _LoginState extends State<Login> {
           child: Column(
             children: [
               Container(
+                height: 100,
+              ),
+              Container(
                 height: MediaQuery.of(context).size.height * 0.5,
                 width: double.infinity,
                 color: kLightBlue,
@@ -30,17 +33,17 @@ class _LoginState extends State<Login> {
                   mainAxisAlignment: MainAxisAlignment.center,
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
-                    Image(
-                      image: AssetImage('assets/images/LOGO_UPI.png'),
-                      width: 100.0,
-                      height: 100.0,
+                    Image.asset(
+                      'images/tappp.png',
+                      width: 200,
+                      height: 200,
                       fit: BoxFit.cover,
                     ),
                     SizedBox(
                       height: 10,
                     ),
                     Text(
-                      '\n\nSelamat Datang! Silahkan Login',
+                      '\nSelamat Datang! Silahkan Login',
                       style: TextStyle(
                           shadows: <Shadow>[
                             Shadow(

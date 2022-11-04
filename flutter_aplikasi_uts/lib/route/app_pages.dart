@@ -23,10 +23,10 @@ class AppPages {
 
   static final list = [
     GetPage(name: Routes.LOGIN, page: () => Login()),
-    // GetPage(
-    //   name: Routes.NAVIGATION,
-    //   page: () => DashboardPage(),
-    // ),
+    GetPage(
+      name: Routes.NAVIGATION,
+      page: () => NavigationPage(),
+    ),
     // GetPage(
     //   name: Routes.PROFILE_PAGE,
     //   page: () => NavigationPage(),
